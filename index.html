@@ -22,7 +22,7 @@
     <!-- found-items should be implemented as a component -->
     <div><br><br>
     <found-items founded-items="list.found" on-remove="list.removeItem"></found-items>
-    <div ng-if="list.errorMessage()" class="emptyMessage">Nothing found!</div>
+    <div ng-show="list.errorMessage()" class="emptyMessage">Nothing found!</div>
     </div>
 
   </div>
